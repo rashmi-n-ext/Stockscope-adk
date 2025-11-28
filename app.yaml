@@ -1,0 +1,7 @@
+runtime: python311
+entrypoint: adk web
+
+handlers:
+- url: /.*
+  script: auto
+  
