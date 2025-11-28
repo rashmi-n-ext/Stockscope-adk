@@ -1,0 +1,20 @@
+Follow the steps below to run the application:
+
+1. Open Command Prompt and navigate to the Downloads folder:
+   cd %HOMEPATH%\Downloads
+
+2. Create a virtual environment:
+   python -m venv .venv
+
+3. Activate the virtual environment:
+   .\.venv\Scripts\activate
+
+4. Install required dependencies:
+   pip install nsetools
+   pip install schedule
+   pip install python-dotenv
+
+5. Run the application:
+   python market_daily_bot.py
+
+A notification will be sent to the Telegram group after the script runs successfully.
